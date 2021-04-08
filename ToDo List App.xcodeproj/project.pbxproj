@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		EA20319B25E8B0020067EB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20319A25E8B0020067EB5D /* AppDelegate.m */; };
 		EA20319E25E8B0020067EB5D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA20319D25E8B0020067EB5D /* SceneDelegate.m */; };
-		EA2031A125E8B0020067EB5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2031A025E8B0020067EB5D /* ViewController.m */; };
 		EA2031A425E8B0020067EB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2031A225E8B0020067EB5D /* Main.storyboard */; };
 		EA2031A625E8B0030067EB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2031A525E8B0030067EB5D /* Assets.xcassets */; };
 		EA2031A925E8B0030067EB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2031A725E8B0030067EB5D /* LaunchScreen.storyboard */; };
 		EA2031AC25E8B0030067EB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2031AB25E8B0030067EB5D /* main.m */; };
+		EA2031B525E8CBF30067EB5D /* ToDoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2031B425E8CBF30067EB5D /* ToDoViewController.m */; };
+		EA2031B925E8CC080067EB5D /* InProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2031B825E8CC080067EB5D /* InProgressViewController.m */; };
+		EA2031BD25E8CC130067EB5D /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2031BC25E8CC130067EB5D /* DoneViewController.m */; };
+		EA2031C225E8E4BB0067EB5D /* CustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2031C125E8E4BB0067EB5D /* CustomCellTableViewCell.m */; };
+		EA2031C625E8F2E90067EB5D /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2031C525E8F2E90067EB5D /* AddViewController.m */; };
+		EA2E707B25EC967D00765F9A /* DetailsOfCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E707A25EC967D00765F9A /* DetailsOfCellViewController.m */; };
+		EA2E707F25EC9A1500765F9A /* EditCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E707E25EC9A1500765F9A /* EditCellViewController.m */; };
+		EA90C8EA25F328B0009E16C8 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA90C8E925F328B0009E16C8 /* TabBarViewController.m */; };
+		EA9675F325EA335100FE3AB4 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA9675F225EA335100FE3AB4 /* ReminderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +30,31 @@
 		EA20319A25E8B0020067EB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EA20319C25E8B0020067EB5D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		EA20319D25E8B0020067EB5D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		EA20319F25E8B0020067EB5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA2031A025E8B0020067EB5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA2031A325E8B0020067EB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA2031A525E8B0030067EB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2031A825E8B0030067EB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2031AA25E8B0030067EB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA2031AB25E8B0030067EB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA2031B325E8CBF30067EB5D /* ToDoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoViewController.h; sourceTree = "<group>"; };
+		EA2031B425E8CBF30067EB5D /* ToDoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoViewController.m; sourceTree = "<group>"; };
+		EA2031B725E8CC080067EB5D /* InProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressViewController.h; sourceTree = "<group>"; };
+		EA2031B825E8CC080067EB5D /* InProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressViewController.m; sourceTree = "<group>"; };
+		EA2031BB25E8CC130067EB5D /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		EA2031BC25E8CC130067EB5D /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
+		EA2031C025E8E4BB0067EB5D /* CustomCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewCell.h; sourceTree = "<group>"; };
+		EA2031C125E8E4BB0067EB5D /* CustomCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewCell.m; sourceTree = "<group>"; };
+		EA2031C425E8F2E90067EB5D /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		EA2031C525E8F2E90067EB5D /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		EA2E707925EC967D00765F9A /* DetailsOfCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsOfCellViewController.h; sourceTree = "<group>"; };
+		EA2E707A25EC967D00765F9A /* DetailsOfCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsOfCellViewController.m; sourceTree = "<group>"; };
+		EA2E707D25EC9A1500765F9A /* EditCellViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditCellViewController.h; sourceTree = "<group>"; };
+		EA2E707E25EC9A1500765F9A /* EditCellViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditCellViewController.m; sourceTree = "<group>"; };
+		EA90C8E825F328B0009E16C8 /* TabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		EA90C8E925F328B0009E16C8 /* TabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		EA9675F125EA335100FE3AB4 /* ReminderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		EA9675F225EA335100FE3AB4 /* ReminderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		EAB313AD25EB533200120DC1 /* myReminderProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myReminderProtocol.h; sourceTree = "<group>"; };
+		EAB313AF25EB945600120DC1 /* MyArraiesProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyArraiesProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,13 +91,31 @@
 				EA20319A25E8B0020067EB5D /* AppDelegate.m */,
 				EA20319C25E8B0020067EB5D /* SceneDelegate.h */,
 				EA20319D25E8B0020067EB5D /* SceneDelegate.m */,
-				EA20319F25E8B0020067EB5D /* ViewController.h */,
-				EA2031A025E8B0020067EB5D /* ViewController.m */,
 				EA2031A225E8B0020067EB5D /* Main.storyboard */,
 				EA2031A525E8B0030067EB5D /* Assets.xcassets */,
 				EA2031A725E8B0030067EB5D /* LaunchScreen.storyboard */,
 				EA2031AA25E8B0030067EB5D /* Info.plist */,
 				EA2031AB25E8B0030067EB5D /* main.m */,
+				EA2031B325E8CBF30067EB5D /* ToDoViewController.h */,
+				EA2031B425E8CBF30067EB5D /* ToDoViewController.m */,
+				EA2031B725E8CC080067EB5D /* InProgressViewController.h */,
+				EA2031B825E8CC080067EB5D /* InProgressViewController.m */,
+				EA2031BB25E8CC130067EB5D /* DoneViewController.h */,
+				EA2031BC25E8CC130067EB5D /* DoneViewController.m */,
+				EA2031C025E8E4BB0067EB5D /* CustomCellTableViewCell.h */,
+				EA2031C125E8E4BB0067EB5D /* CustomCellTableViewCell.m */,
+				EA2031C425E8F2E90067EB5D /* AddViewController.h */,
+				EA2031C525E8F2E90067EB5D /* AddViewController.m */,
+				EA9675F125EA335100FE3AB4 /* ReminderViewController.h */,
+				EA9675F225EA335100FE3AB4 /* ReminderViewController.m */,
+				EAB313AD25EB533200120DC1 /* myReminderProtocol.h */,
+				EAB313AF25EB945600120DC1 /* MyArraiesProtocol.h */,
+				EA2E707925EC967D00765F9A /* DetailsOfCellViewController.h */,
+				EA2E707A25EC967D00765F9A /* DetailsOfCellViewController.m */,
+				EA2E707D25EC9A1500765F9A /* EditCellViewController.h */,
+				EA2E707E25EC9A1500765F9A /* EditCellViewController.m */,
+				EA90C8E825F328B0009E16C8 /* TabBarViewController.h */,
+				EA90C8E925F328B0009E16C8 /* TabBarViewController.m */,
 			);
 			path = "ToDo List App";
 			sourceTree = "<group>";
@@ -145,10 +189,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA2031A125E8B0020067EB5D /* ViewController.m in Sources */,
+				EA2031BD25E8CC130067EB5D /* DoneViewController.m in Sources */,
 				EA20319B25E8B0020067EB5D /* AppDelegate.m in Sources */,
+				EA2E707F25EC9A1500765F9A /* EditCellViewController.m in Sources */,
+				EA2031B925E8CC080067EB5D /* InProgressViewController.m in Sources */,
+				EA90C8EA25F328B0009E16C8 /* TabBarViewController.m in Sources */,
+				EA2031B525E8CBF30067EB5D /* ToDoViewController.m in Sources */,
+				EA2E707B25EC967D00765F9A /* DetailsOfCellViewController.m in Sources */,
 				EA2031AC25E8B0030067EB5D /* main.m in Sources */,
 				EA20319E25E8B0020067EB5D /* SceneDelegate.m in Sources */,
+				EA2031C625E8F2E90067EB5D /* AddViewController.m in Sources */,
+				EA2031C225E8E4BB0067EB5D /* CustomCellTableViewCell.m in Sources */,
+				EA9675F325EA335100FE3AB4 /* ReminderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
